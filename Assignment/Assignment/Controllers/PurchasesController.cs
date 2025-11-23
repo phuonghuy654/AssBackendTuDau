@@ -20,6 +20,28 @@ namespace Assignment.Controllers
             _context = context;
         }
 
+        // YÊU CẦU 6: Lịch sử mua hàng của 1 người chơi, sắp xếp theo thời gian
+        // GET: api/Purchases/History/1
+        [HttpGet("History/{characterId}")]
+        public async Task<IActionResult> GetHistory(int characterId)
+        {
+            var history = await _context.Purchases
+                .Include(p => p.Item) // Kèm theo thông tin tên Item
+                .Where(p => p.CharacterId == characterId)
+                .OrderByDescending(p => p.DatePurchased) // Sắp xếp mới nhất lên đầu (hoặc OrderBy để cũ nhất lên đầu)
+                .Select(p => new
+                {
+                    ItemName = p.Item.ItemName,
+                    PriceAtPurchase = p.PriceAtPurchase,
+                    Date = p.DatePurchased
+                })
+                .ToListAsync();
+
+            if (!history.Any()) return NotFound("Nhân vật này chưa mua gì cả.");
+
+            return Ok(history);
+        }
+
         // 9. Lấy danh sách các item được mua nhiều nhất
         // GET: api/Purchases/MostPurchasedItems
         [HttpGet("MostPurchasedItems")]

@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "Assignment\\Controllers\\AccountsController.cs",
               "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\AccountsController.cs",
               "RelativeToolTip": "Assignment\\Controllers\\AccountsController.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAiwHIAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAADwv5IAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T03:00:10.511Z",
               "EditorCaption": ""
@@ -86,7 +86,7 @@
               "RelativeDocumentMoniker": "Assignment\\Controllers\\PurchasesController.cs",
               "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\PurchasesController.cs",
               "RelativeToolTip": "Assignment\\Controllers\\PurchasesController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAcwE0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T02:46:27.283Z",
               "EditorCaption": ""
@@ -99,7 +99,7 @@
               "RelativeDocumentMoniker": "Assignment\\Controllers\\ShopItemsController.cs",
               "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\ShopItemsController.cs",
               "RelativeToolTip": "Assignment\\Controllers\\ShopItemsController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADwAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwDwAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T02:26:22.058Z",
               "EditorCaption": ""
@@ -114,8 +114,7 @@
               "RelativeToolTip": "Assignment\\Controllers\\CharactersController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAA4wCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T02:11:32.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T02:11:32.87Z"
             },
             {
               "$type": "Document",
@@ -127,8 +126,7 @@
               "RelativeToolTip": "Assignment\\Data\\ASMDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T01:36:33.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T01:36:33.223Z"
             },
             {
               "$type": "Document",
@@ -140,8 +138,7 @@
               "RelativeToolTip": "Assignment\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-22T13:40:39.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T13:40:39.855Z"
             },
             {
               "$type": "Document",
@@ -153,8 +150,7 @@
               "RelativeToolTip": "Assignment\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T13:38:38.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T13:38:38.821Z"
             },
             {
               "$type": "Document",
@@ -166,8 +162,7 @@
               "RelativeToolTip": "Assignment\\Controllers\\ResourcesController.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAowG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T13:38:27.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T13:38:27.656Z"
             },
             {
               "$type": "Document",
@@ -179,8 +174,7 @@
               "RelativeToolTip": "Assignment\\Models\\MinecraftDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T13:20:13.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T13:20:13.425Z"
             }
           ]
         }

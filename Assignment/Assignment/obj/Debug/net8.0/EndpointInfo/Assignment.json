@@ -191,7 +191,7 @@
       }
     },
     "/api/Accounts/ChangePassword": {
-      "post": {
+      "put": {
         "tags": [
           "Accounts"
         ],
@@ -233,6 +233,29 @@
             "required": true,
             "schema": {
               "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Purchases/History/{characterId}": {
+      "get": {
+        "tags": [
+          "Purchases"
+        ],
+        "parameters": [
+          {
+            "name": "characterId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],

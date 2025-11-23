@@ -43,7 +43,6 @@ namespace Assignment.Controllers
         }
 
         // PUT: api/Accounts/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAccount(int id, Account account)
         {
@@ -74,7 +73,6 @@ namespace Assignment.Controllers
         }
 
         // POST: api/Accounts
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Account>> PostAccount(Account account)
         {
@@ -84,26 +82,25 @@ namespace Assignment.Controllers
             return CreatedAtAction("GetAccount", new { id = account.AccountId }, account);
         }
 
-        // POST: api/Accounts/ChangePassword
-        // Endpoint để Cập nhật mật khẩu của người chơi
-        [HttpPost("ChangePassword")]
+        // PUT: api/Accounts/ChangePassword
+        // ĐÃ SỬA: Đổi từ HttpPost sang HttpPut cho đúng chuẩn cập nhật
+        [HttpPut("ChangePassword")]
         public async Task<IActionResult> ChangePassword(ChangePasswordDTO changePasswordDto)
         {
             var account = await _context.Accounts.FindAsync(changePasswordDto.AccountId);
 
             if (account == null)
             {
-                return NotFound("Account not found.");
+                // ĐÃ SỬA: Trả về JSON lỗi
+                return NotFound(new { Message = "Account not found." });
             }
 
-          
             if (account.Password != changePasswordDto.OldPassword)
             {
-                
-                return BadRequest("Invalid old password.");
+                // ĐÃ SỬA: Trả về JSON lỗi
+                return BadRequest(new { Message = "Invalid old password." });
             }
 
-           
             account.Password = changePasswordDto.NewPassword;
 
             try
@@ -112,10 +109,9 @@ namespace Assignment.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                
                 if (!AccountExists(account.AccountId))
                 {
-                    return NotFound("Account was deleted by another operation.");
+                    return NotFound(new { Message = "Account was deleted by another operation." });
                 }
                 else
                 {
@@ -123,9 +119,9 @@ namespace Assignment.Controllers
                 }
             }
 
-            return Ok("Password updated successfully.");
+            // ĐÃ SỬA: Trả về JSON object thay vì string thô
+            return Ok(new { Message = "Password updated successfully." });
         }
-
 
         // DELETE: api/Accounts/5
         [HttpDelete("{id}")]

@@ -112,7 +112,7 @@
     "ContainingType": "Assignment.Controllers.AccountsController",
     "Method": "ChangePassword",
     "RelativePath": "api/Accounts/ChangePassword",
-    "HttpMethod": "POST",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -135,6 +135,22 @@
       {
         "Name": "mode",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment.Controllers.PurchasesController",
+    "Method": "GetHistory",
+    "RelativePath": "api/Purchases/History/{characterId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "characterId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
