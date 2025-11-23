@@ -20,6 +20,56 @@ namespace Assignment.Controllers
             _context = context;
         }
 
+        // POST: api/ShopItems/UploadImage/5
+        // Yêu cầu 1.3: Upload hình ảnh cho Item
+        [HttpPost("UploadImage/{id}")]
+        public async Task<IActionResult> UploadImage(int id, IFormFile file)
+        {
+            // 1. Kiểm tra item có tồn tại không
+            var item = await _context.ShopItems.FindAsync(id);
+            if (item == null) return NotFound("Item không tồn tại.");
+
+            // 2. Kiểm tra file có hợp lệ không
+            if (file == null || file.Length == 0)
+            {
+                return BadRequest("Vui lòng chọn file ảnh.");
+            }
+
+            try
+            {
+                // 3. Tạo đường dẫn lưu file
+                // Lấy đường dẫn thư mục wwwroot/images
+                var folderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+
+                // Tạo thư mục nếu chưa có
+                if (!Directory.Exists(folderPath)) Directory.CreateDirectory(folderPath);
+
+                // Tạo tên file duy nhất (để tránh trùng lặp)
+                var fileName = $"{Guid.NewGuid()}{file.FileName}";
+                var filePath = Path.Combine(folderPath, fileName);
+
+                // 4. Lưu file vào server
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+
+                // 5. Cập nhật tên ảnh vào Database
+                item.Image = fileName; 
+                await _context.SaveChangesAsync();
+
+                // 6. Trả về đường dẫn ảnh để client hiển thị
+                // URL sẽ là: https://localhost:port/images/ten_file.jpg
+                var imageUrl = $"{Request.Scheme}://{Request.Host}/images/{fileName}";
+
+                return Ok(new { Message = "Upload thành công", ImageUrl = imageUrl });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Lỗi server: {ex.Message}");
+            }
+        }
+
         // YÊU CẦU 3: Lấy vũ khí có giá trị > 100 XP
         // GET: api/ShopItems/ExpensiveWeapons
         [HttpGet("ExpensiveWeapons")]
@@ -79,6 +129,8 @@ namespace Assignment.Controllers
         {
             return Ok(await _context.ShopItems.ToListAsync());
         }
+
+
 
 
     }
