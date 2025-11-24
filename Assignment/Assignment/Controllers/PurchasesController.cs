@@ -20,15 +20,15 @@ namespace Assignment.Controllers
             _context = context;
         }
 
-        // YÊU CẦU 6: Lịch sử mua hàng của 1 người chơi, sắp xếp theo thời gian
-        // GET: api/Purchases/History/1
+        //6
+       
         [HttpGet("History/{characterId}")]
         public async Task<IActionResult> GetHistory(int characterId)
         {
             var history = await _context.Purchases
-                .Include(p => p.Item) // Kèm theo thông tin tên Item
+                .Include(p => p.Item) 
                 .Where(p => p.CharacterId == characterId)
-                .OrderByDescending(p => p.DatePurchased) // Sắp xếp mới nhất lên đầu (hoặc OrderBy để cũ nhất lên đầu)
+                .OrderByDescending(p => p.DatePurchased) 
                 .Select(p => new
                 {
                     ItemName = p.Item.ItemName,
@@ -42,13 +42,13 @@ namespace Assignment.Controllers
             return Ok(history);
         }
 
-        // 9. Lấy danh sách các item được mua nhiều nhất
-        // GET: api/Purchases/MostPurchasedItems
+        // 9
+      
         [HttpGet("MostPurchasedItems")]
         public async Task<ActionResult<IEnumerable<object>>> GetMostPurchasedItems()
         {
             var mostPurchased = await _context.Purchases
-                .Include(p => p.Item) // Đảm bảo Item được tải để lấy ItemName
+                .Include(p => p.Item) 
                 .GroupBy(p => p.ItemId)
                 .Select(g => new
                 {
@@ -67,12 +67,12 @@ namespace Assignment.Controllers
             return mostPurchased;
         }
 
-        // 10. Lấy danh sách tất cả người chơi và số lần họ đã mua hàng
-        // GET: api/Purchases/PlayerPurchaseCounts
+        // 10
+      
         [HttpGet("PlayerPurchaseCounts")]
         public async Task<ActionResult<IEnumerable<object>>> GetPlayersPurchaseCounts()
         {
-            // Cần Include Character và Account để truy cập Username
+          
             var playerPurchaseCounts = await _context.Purchases
                 .Include(p => p.Character)
                 .ThenInclude(c => c.Account)

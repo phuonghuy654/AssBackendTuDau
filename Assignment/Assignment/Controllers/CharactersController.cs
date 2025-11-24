@@ -20,11 +20,11 @@ namespace Assignment.Controllers
             _context = context;
         }
 
-        // GET: api/Characters/GetByMode/Sinh tồn
+        
         [HttpGet("GetByMode/{mode}")]
         public async Task<IActionResult> GetByMode(string mode)
         {
-            // Tìm những nhân vật có Mode trùng với từ khóa truyền vào
+            
             var characters = await _context.Characters
                 .Where(c => c.Mode == mode)
                 .ToListAsync();

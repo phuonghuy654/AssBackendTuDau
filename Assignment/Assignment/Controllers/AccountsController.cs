@@ -21,14 +21,13 @@ namespace Assignment.Controllers
             _context = context;
         }
 
-        // GET: api/Accounts
+        
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Account>>> GetAccounts()
         {
             return await _context.Accounts.ToListAsync();
         }
 
-        // GET: api/Accounts/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Account>> GetAccount(int id)
         {
@@ -42,48 +41,10 @@ namespace Assignment.Controllers
             return account;
         }
 
-        // PUT: api/Accounts/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutAccount(int id, Account account)
-        {
-            if (id != account.AccountId)
-            {
-                return BadRequest();
-            }
+        
 
-            _context.Entry(account).State = EntityState.Modified;
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!AccountExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
-
-        // POST: api/Accounts
-        [HttpPost]
-        public async Task<ActionResult<Account>> PostAccount(Account account)
-        {
-            _context.Accounts.Add(account);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetAccount", new { id = account.AccountId }, account);
-        }
-
-        // PUT: api/Accounts/ChangePassword
-        // ĐÃ SỬA: Đổi từ HttpPost sang HttpPut cho đúng chuẩn cập nhật
+      
         [HttpPut("ChangePassword")]
         public async Task<IActionResult> ChangePassword(ChangePasswordDTO changePasswordDto)
         {
@@ -91,13 +52,13 @@ namespace Assignment.Controllers
 
             if (account == null)
             {
-                // ĐÃ SỬA: Trả về JSON lỗi
+               
                 return NotFound(new { Message = "Account not found." });
             }
 
             if (account.Password != changePasswordDto.OldPassword)
             {
-                // ĐÃ SỬA: Trả về JSON lỗi
+                
                 return BadRequest(new { Message = "Invalid old password." });
             }
 
@@ -119,25 +80,11 @@ namespace Assignment.Controllers
                 }
             }
 
-            // ĐÃ SỬA: Trả về JSON object thay vì string thô
+    
             return Ok(new { Message = "Password updated successfully." });
         }
 
-        // DELETE: api/Accounts/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteAccount(int id)
-        {
-            var account = await _context.Accounts.FindAsync(id);
-            if (account == null)
-            {
-                return NotFound();
-            }
 
-            _context.Accounts.Remove(account);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
 
         private bool AccountExists(int id)
         {
