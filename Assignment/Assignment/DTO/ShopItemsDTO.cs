@@ -5,5 +5,6 @@
         public int ItemId { get; set; }
         public string Name { get; set; }
         public string Type { get; set; }
+        public int PriceXp { get; set; }
     }
 }

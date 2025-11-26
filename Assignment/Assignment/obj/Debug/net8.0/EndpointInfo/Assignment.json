@@ -804,6 +804,10 @@
           "type": {
             "type": "string",
             "nullable": true
+          },
+          "priceXp": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

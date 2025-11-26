@@ -75,7 +75,7 @@ namespace Assignment.Controllers
         public async Task<IActionResult> GetExpensiveWeapons()
         {
             var weapons = await _context.ShopItems
-                .Where(x => x.ItemType == "Vũ khí" && x.PriceXp > 30)
+                .Where(x => x.ItemType == "Vũ khí" && x.PriceXp > 200)
                 .ToListAsync();
             return Ok(weapons);
         }
@@ -121,7 +121,8 @@ namespace Assignment.Controllers
             var newItem = new ShopItem
             {
                 ItemName = itemDTO.Name,
-                ItemType = itemDTO.Type
+                ItemType = itemDTO.Type,
+                PriceXp = itemDTO.PriceXp
             };
             _context.ShopItems.Add(newItem);
             await _context.SaveChangesAsync();

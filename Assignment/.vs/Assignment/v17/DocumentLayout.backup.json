@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\GitHub\\AssBackendTuDau\\Assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|c:\\github\\assbackendtudau\\assignment\\assignment\\controllers\\shopitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|solutionrelative:assignment\\controllers\\shopitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|c:\\github\\assbackendtudau\\assignment\\assignment\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|solutionrelative:assignment\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|c:\\github\\assbackendtudau\\assignment\\assignment\\models\\shopitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|solutionrelative:assignment\\models\\shopitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|c:\\github\\assbackendtudau\\assignment\\assignment\\dto\\shopitemsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +13,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|c:\\github\\assbackendtudau\\assignment\\assignment\\dto\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|solutionrelative:assignment\\dto\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|c:\\github\\assbackendtudau\\assignment\\assignment\\controllers\\shopitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|solutionrelative:assignment\\controllers\\shopitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|c:\\github\\assbackendtudau\\assignment\\assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|solutionrelative:assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|c:\\github\\assbackendtudau\\assignment\\assignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|solutionrelative:assignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|c:\\github\\assbackendtudau\\assignment\\assignment\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|solutionrelative:assignment\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|c:\\github\\assbackendtudau\\assignment\\assignment\\controllers\\resourcescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,16 +47,8 @@
       "RelativeMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|solutionrelative:assignment\\models\\minecraftdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|c:\\github\\assbackendtudau\\assignment\\assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|solutionrelative:assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|c:\\github\\assbackendtudau\\assignment\\assignment\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|solutionrelative:assignment\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|c:\\github\\assbackendtudau\\assignment\\assignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C7C49177-8EA4-4F2E-91C1-C08A88DE8CAA}|Assignment\\Assignment.csproj|solutionrelative:assignment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,76 +58,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShopItemsDTO.cs",
-              "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\DTO\\ShopItemsDTO.cs",
-              "RelativeDocumentMoniker": "Assignment\\DTO\\ShopItemsDTO.cs",
-              "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\DTO\\ShopItemsDTO.cs",
-              "RelativeToolTip": "Assignment\\DTO\\ShopItemsDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T11:10:53.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountsController.cs",
-              "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\AccountsController.cs",
-              "RelativeDocumentMoniker": "Assignment\\Controllers\\AccountsController.cs",
-              "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\AccountsController.cs",
-              "RelativeToolTip": "Assignment\\Controllers\\AccountsController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAACsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T03:00:10.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CharactersController.cs",
-              "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\CharactersController.cs",
-              "RelativeDocumentMoniker": "Assignment\\Controllers\\CharactersController.cs",
-              "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\CharactersController.cs",
-              "RelativeToolTip": "Assignment\\Controllers\\CharactersController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T02:11:32.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ShopItem.cs",
+              "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Models\\ShopItem.cs",
+              "RelativeDocumentMoniker": "Assignment\\Models\\ShopItem.cs",
+              "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Models\\ShopItem.cs",
+              "RelativeToolTip": "Assignment\\Models\\ShopItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T12:13:25.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ShopItemsController.cs",
               "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\ShopItemsController.cs",
               "RelativeDocumentMoniker": "Assignment\\Controllers\\ShopItemsController.cs",
               "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\ShopItemsController.cs",
               "RelativeToolTip": "Assignment\\Controllers\\ShopItemsController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAcwIIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwHwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T02:26:22.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PurchasesController.cs",
-              "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\PurchasesController.cs",
-              "RelativeDocumentMoniker": "Assignment\\Controllers\\PurchasesController.cs",
-              "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\PurchasesController.cs",
-              "RelativeToolTip": "Assignment\\Controllers\\PurchasesController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwB4AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T02:46:27.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ResourcesController.cs",
               "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\ResourcesController.cs",
               "RelativeDocumentMoniker": "Assignment\\Controllers\\ResourcesController.cs",
@@ -131,51 +96,37 @@
               "RelativeToolTip": "Assignment\\Controllers\\ResourcesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T13:38:27.656Z",
+              "WhenOpened": "2025-11-22T13:38:27.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\appsettings.json",
+              "RelativeDocumentMoniker": "Assignment\\appsettings.json",
+              "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\appsettings.json",
+              "RelativeToolTip": "Assignment\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-22T13:40:39.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MinecraftDbContext.cs",
-              "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Models\\MinecraftDbContext.cs",
-              "RelativeDocumentMoniker": "Assignment\\Models\\MinecraftDbContext.cs",
-              "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Models\\MinecraftDbContext.cs",
-              "RelativeToolTip": "Assignment\\Models\\MinecraftDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T13:20:13.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Program.cs",
               "RelativeDocumentMoniker": "Assignment\\Program.cs",
               "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Program.cs",
               "RelativeToolTip": "Assignment\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-22T13:38:38.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\wwwroot\\index.html",
-              "RelativeDocumentMoniker": "Assignment\\wwwroot\\index.html",
-              "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\wwwroot\\index.html",
-              "RelativeToolTip": "Assignment\\wwwroot\\index.html",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAUwK8AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-11-23T08:48:49.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ChangePasswordDTO.cs",
               "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\DTO\\ChangePasswordDTO.cs",
               "RelativeDocumentMoniker": "Assignment\\DTO\\ChangePasswordDTO.cs",
@@ -188,15 +139,76 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShopItemsDTO.cs",
+              "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\DTO\\ShopItemsDTO.cs",
+              "RelativeDocumentMoniker": "Assignment\\DTO\\ShopItemsDTO.cs",
+              "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\DTO\\ShopItemsDTO.cs",
+              "RelativeToolTip": "Assignment\\DTO\\ShopItemsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T11:10:53.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PurchasesController.cs",
+              "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\PurchasesController.cs",
+              "RelativeDocumentMoniker": "Assignment\\Controllers\\PurchasesController.cs",
+              "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\PurchasesController.cs",
+              "RelativeToolTip": "Assignment\\Controllers\\PurchasesController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwB4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T02:46:27.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CharactersController.cs",
+              "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\CharactersController.cs",
+              "RelativeDocumentMoniker": "Assignment\\Controllers\\CharactersController.cs",
+              "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\CharactersController.cs",
+              "RelativeToolTip": "Assignment\\Controllers\\CharactersController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T02:11:32.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "Assignment\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "Assignment\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAACsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T03:00:10.511Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\appsettings.json",
-              "RelativeDocumentMoniker": "Assignment\\appsettings.json",
-              "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\appsettings.json",
-              "RelativeToolTip": "Assignment\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-22T13:40:39.855Z"
+              "Title": "MinecraftDbContext.cs",
+              "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Models\\MinecraftDbContext.cs",
+              "RelativeDocumentMoniker": "Assignment\\Models\\MinecraftDbContext.cs",
+              "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\Models\\MinecraftDbContext.cs",
+              "RelativeToolTip": "Assignment\\Models\\MinecraftDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T13:20:13.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Assignment\\wwwroot\\index.html",
+              "ToolTip": "C:\\GitHub\\AssBackendTuDau\\Assignment\\Assignment\\wwwroot\\index.html",
+              "RelativeToolTip": "Assignment\\wwwroot\\index.html",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwK8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-23T08:48:49.914Z"
             }
           ]
         }
